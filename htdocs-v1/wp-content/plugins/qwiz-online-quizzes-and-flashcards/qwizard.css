@@ -1,0 +1,509 @@
+#qwizard {
+   position:            relative;
+   margin:              auto;
+   width:               525px;
+   text-align:          center;
+}
+
+button.qwizard_add_media {
+   margin-bottom:       5px;
+}
+
+#qwizard_dataset_question_not_editable,
+#qwizard_dataset_card_not_editable {
+   display:             none;
+   color:               darkgray;
+   padding-left:        1em;
+}
+
+#qwizard_shortcodes {
+   display:             none;
+}
+
+#quiz_components_menu {
+   margin:              auto;
+   width:               730px;
+}
+
+div.component_options {
+   text-align:          left;
+}
+
+div.qwizard_accordion div.ui-accordion-content {
+   padding:             5px 1em;
+}
+
+div.component_options p.qwizard_title {
+   color:               black !important;
+   font-size:           10pt;
+   font-weight:         bold;
+   background:          none !important;
+   padding-right:       3px !important;
+   padding-top:         3px !important;
+   padding-bottom:      3px !important;
+}
+
+.ui-accordion-content {
+   font-size:           10pt;
+}
+
+table.quiz_deck_options td {
+   padding-right:       10px;
+}
+
+.qwiz_deck_options_box {
+   width:               100px;
+}
+
+div.simpleColorContainer {
+   display:             inline-block;
+   margin-top:          -10px;
+   transform:           translate(0px, 5px);
+   -webkit-transform:   translate(0px, 5px);
+   z-index:             25;
+}
+
+#multiple_choice_options_menu,
+#show_me_options_menu {
+   left:                450px;
+   top:                 250px;
+}
+
+.options_menu_feedback {
+   display:             none;
+   padding:             5px;
+   background:          #FFFF77;
+}
+
+.qwiz_editable,
+.qcard_editable,
+.qwiz_editable p,
+.qcard_editable p {
+   min-height:          12pt;
+   outline:             1px dotted gray;
+   padding:             3px;
+}
+/* User page */
+div#qwizard_qwiz_deck_div .qwiz_editable,
+div#qwizard_qwiz_deck_div .qcard_editable,
+div#qwizard_qwiz_deck_div .qwiz_editable p,
+div#qwizard_qwiz_deck_div .qcard_editable p {
+   min-height:          0 !important;
+   outline:             none !important;
+   padding:             none !important;
+}
+
+/*
+.qwiz_editable p,
+.qcard_editable p {
+   margin-top:          2px !important;
+}
+*/
+
+.qwizard_line_height {
+   line-height:         1.7rem !important;
+}
+
+span.qwizard_placeholder {
+   color:               gray;
+   background:          #ffff55;
+}
+
+span.qwizard_placeholder span {
+   font-weight:         normal !important;
+   color:               gray;
+   background:          white;
+}
+
+span.qwizard_placeholder::selection {
+   color:               indianred;
+   background:          #ffff55;
+}
+
+span.qwizard_placeholder span::selection {
+   color:               gray;
+   background:          white;
+}
+
+span.qwizard_placeholder::-moz-selection {
+   color:               indianred;
+   background:          #ffff55;
+}
+
+span.qwizard_placeholder span::-moz-selection {
+   color:               gray;
+   background:          white;
+}
+
+/*
+div.qwizzled_image {
+   outline:             2px dotted blue;
+}
+*/
+
+div.hangman_label {
+   cursor:              move;
+   border:              1px dotted gray;
+   background:          rgba(256,256,256,0.5);
+}
+
+#label_options_menu {
+   top:                 60%;
+   left:                50%;
+}
+
+.label_options_menu_feedback {
+   display:             none;
+   padding:             5px;
+   background:          #FFFF77;
+}
+
+.qwizard_floating_menu {
+   display:             none;
+   position:            fixed;
+   min-width:           230px;
+   border:              1px solid black;
+   box-shadow:          3px 3px 2px gray;
+   background:          white;
+   text-align:          left;
+   padding:             4px;
+   z-index:             103;
+}
+
+div.qwizard_floating_menu_header {
+   position:            relative;
+   height:              24px;
+   margin-bottom:       2px;
+   padding:             2px;
+   color:               white;
+   background:          rgba(79, 112, 153, 1);
+   font-weight:         bold;
+   cursor:              move;
+}
+
+div.qwizard_floating_menu_title {
+   position:        absolute;
+   left:            2px;
+   top:             3px;
+}
+
+
+.qwizard_icon_menu_exit {
+   float:           right;
+   border:          none;
+   margin-top:      3px;
+   cursor:          pointer;
+}
+
+.current_answer_choice {
+   background:          none;
+   border:              1px dotted gray;
+   padding:             0px 2px;
+   outline:             none;
+}
+
+.highlight_answer_choice {
+   background:          #ffffbb;
+   border:              1px dotted gray;
+   padding:             0px 2px;
+   outline:             2px solid #ff55ff;
+}
+
+.highlight_selected_choice_label {
+   outline:             2px solid #ff55ff !important;
+   background:          #ffffbb !important;
+}
+
+.highlight_selected_word {
+   outline:             2px solid #ff55ff !important;
+}
+
+#new_question_type_menu {
+   display:             none;
+   position:            absolute;
+   border:              1px solid black;
+   box-shadow:          3px 3px 2px gray;
+   background:          white;
+   text-align:          left;
+   padding:             5px;
+}
+
+div.qwizard_menu_item,
+div.qwizard_menu_item_inactive {
+   border:                 1px solid transparent;
+   background:             none;
+   line-height:            1.4em;
+   -moz-user-select:       none;
+   -webkit-user-select:    none;
+   -ms-user-select:        none;
+}
+
+div.qwizard_menu_item_disabled {
+   border:                 1px solid white;
+   color:                  gray;
+   line-height:            1.4em;
+   -moz-user-select:       none;
+   -webkit-user-select:    none;
+   -ms-user-select:        none;
+}
+
+.menu_spinner {
+   visibility:             hidden;
+}
+
+div.qwizard_menu_item:hover {
+   border:                 1px solid gray;
+   cursor:                 pointer;
+}
+
+div.qwizard_menu_item:active {
+   outline:                2px solid lightgray;
+}
+
+div.qwizard_menu_question_label {
+   display:                inline-block;
+   vertical-align:         -3px;
+   width:                  370px;
+   white-space:            nowrap;
+   overflow:               hidden;
+}
+
+div.unit_combobox,
+div.topic_combobox {
+   display:                inline-block;
+   width:                  100px;
+   margin-left:            10px;
+}
+
+            /* Buttons inside menu item float right. */
+.qwizard_menu_item button.qwiz_image_button {
+   float:                 right;
+   margin-left:           3px;
+}
+
+            /* Options (alignment, border styles...) table. */
+table.quiz_deck_options {
+   border:                 0;
+}
+
+input.page_title {
+   width:                  8em;
+}
+
+input.width_px,
+input.height_px,
+input.spacing_px {
+   width:                  3em;
+   text-align:             right;
+   padding:                0 2px;
+   min-height:             20px;
+   line-height:            normal;
+}
+select.options_select {
+   min-height:             20px;
+   line-height:            normal;
+}
+
+            /* Sortable questions. */
+#qwizard_questions_sortable {
+   padding-top:           3px;
+   padding-bottom:        3px;
+   max-height:            200px;
+   overflow-y:            auto;
+}
+
+#qwizard_questions div.sortable {
+   cursor:                move;
+}
+
+
+            /*
+#free_form_options_menu {
+   left:                   550px;
+   top:                    300px;
+}
+            */
+
+.qwiz_image_button {
+   border:                 none;
+   background:             none;
+   padding:                0;
+   cursor:                 pointer;
+}
+
+            /* Keep bubbleBar in front of modal overlay. */
+div#bubbleBarWrapper {
+   z-index:                9996;
+   width:                  550px;
+   overflow:               hidden;
+}
+
+div.multiple_choice_tooltip.ui-tooltip {
+   font-size:              10pt;
+}
+
+div.ui-widget-overlay.ui-front {
+   z-index:                99;
+}
+
+div#dialog_qwizard,
+div#dialog_qwizard_media_upload {
+   width:                  100%  !important;
+   font-size:              10pt;
+   background:             white !important;
+}
+
+.ui-dialog-titlebar {
+   border:                 0 !important;
+   border-radius:          0 !important;
+   padding:                2px 0.4em !important;
+   color:                  white !important;
+   font-weight:            bold !important;
+   background:             rgba(79, 112, 153, 1) !important;
+}
+
+/* Adding "modal_dialog_qwizard" class doesn't seem to work. */
+div.modal_dialog_qwizard {
+   z-index:                9995;
+}
+
+div.modal_dialog_qwizard div.ui-dialog-titlebar {
+   display:                inline-block;
+   box-sizing:             border-box;
+   width:                  100%;
+}
+
+            /* No close x-icon in modal dialog titlebar. */
+div.modal_dialog_qwizard button.ui-dialog-titlebar-close {
+   display:                none !important;
+}
+
+            /* Link in titlebar. */
+a.qwizard_view_edit_shortcodes,
+a.qwizard_exit_view_edit_shortcodes {
+   position:               absolute;
+   right:                  10px;
+   font-weight:            normal;
+   color:                  white;
+   display:                none;
+}
+
+div.ui-dialog-buttonpane {
+   background:             lightgray;
+}
+
+div.ui-dialog-buttonpane button.ui-button {
+   font-size:              10pt;
+   font-weight:            bold;
+   color:                  white;
+   background:             #65a9d7;
+}
+
+div.ui-dialog-buttonpane button.ui-button:hover {
+   color:                  #ccc;
+   background:             #28597a;
+}
+
+.ui-widget-header .ui-state-hover,
+   color:                  #0000ff !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+   color:                  #1c94c4 !important;
+}
+
+.ui-state-active {
+   border:                 1px solid #fbd850 !important;
+   color:                  #eb8f00 !important;
+ }
+
+.qwizard_top {
+   vertical-align:         top;
+}
+
+.qwizard_center {
+   text-align:             center;
+}
+
+.qwizard_highlight {
+   background:             yellow;
+}
+
+.qwizard_green {
+   color:                  green;
+   font-weight:            bold;
+}
+
+.qwizard_red {
+   color:                  red;
+   font-weight:            bold;
+}
+
+.qwizard_gray {
+   color:                  gray;
+}
+
+.qwizard_normal {
+   font-size:              10pt;
+   font-weight:            normal;
+}
+
+.qwizard_smaller {
+   font-size:              80%;
+}
+
+.qwizard_shift_icon {
+   transform:              translate(0px, 2px);
+   -webkit-transform:      translate(0px, 2px);
+}
+
+.qwizard_pointer {
+   cursor:                 pointer;
+}
+
+.qwizard_help {
+   cursor:                 help;
+}
+
+.custom-combobox {
+   position:            relative;
+   display:             inline-block;
+   white-space:         nowrap;
+}
+.custom-combobox-toggle {
+   position:            absolute;
+   top:                 0;
+   bottom:              0;
+   margin-left:         -1px;
+   padding:             0;
+   background:          none !important;
+   width:               1em  !important;
+   border-left:         0;
+   border-radius:       0    !important;
+}
+.custom-combobox-toggle:hover {
+   border:              1px solid #d9d9d9;
+   background:          #cee3f6 !important;
+   }
+   .custom-combobox-input {
+   font-size:           10pt;
+   color:               black;
+   margin:              0;
+   padding:             1px 2px 2px;
+   background:          none !important;
+   border-right:        0;
+   border-radius:       0;
+}
+
+.qwiz_fixed {
+   position:            fixed !important;
+}
+
+div#dialog_qwizard div.hangman_labeled_diagram_fields {
+   display:             block !important;
+}

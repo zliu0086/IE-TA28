@@ -1,0 +1,67 @@
+.ef_flashcard {
+float: left;
+    margin: 10px;
+	box-shadow:5px 5px 15px #ccc;
+    position: relative;
+    display:inline;
+	transform: perspective(400px) rotateY(0deg);
+	-moz-transform: perspective(400px) rotateY(0deg);
+	-webkit-transform: perspective(400px) rotateY(0deg);
+	-o-transform: perspective(400px) rotateY(0deg);
+	-ms-transform: perspective(400px) rotateY(0deg);
+	transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	-webkit-transition: all ease 0.2s;
+	-o-transition: all ease 0.2s;
+	-ms-transition: all ease 0.2s;
+}
+.ef_flashcard .ef_front_face {
+
+	overflow: hidden;
+    position: absolute;
+     height:100%;
+	width:100%;
+    text-align: center;
+	
+}
+
+
+.ef_flashcard .ef_back_face{
+overflow: hidden;
+height:100%;
+	width:100%;
+	text-align: center;
+	
+	
+}
+
+
+.ef_text_front{
+  text-align:center;
+  padding:25%;
+}
+
+.ef_flashcard .ef_back_face .ef_text_back{
+  text-align:center;
+  padding:10%;
+}
+
+
+
+.ef_flashcard:hover {
+
+	transform: perspective(400px) rotateY(180deg);
+	-moz-transform: perspective(400px) rotateY(180deg);
+	-webkit-transform: perspective(400px) rotateY(180deg);
+	-o-transform: perspective(400px) rotateY(180deg);
+	-ms-transform: perspective(400px) rotateY(180deg);
+}
+.ef_flashcard:hover .ef_back_face {
+
+  
+	transform: perspective(400px) rotateY(-180deg);
+	-moz-transform: perspective(400px) rotateY(-180deg);
+	-webkit-transform: perspective(400px) rotateY(-180deg);
+	-o-transform: perspective(400px) rotateY(-180deg);
+	-ms-transform: perspective(400px) rotateY(-180deg);
+}

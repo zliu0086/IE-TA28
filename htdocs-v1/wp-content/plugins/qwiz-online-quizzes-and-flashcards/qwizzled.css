@@ -1,0 +1,288 @@
+.qwizzled_image {
+   display:          inline-block;
+}
+.qwizzled_image img {
+   max-width:        none;
+}
+
+#qwizzled_main_menu {
+   position:         fixed;
+   width:            26rem;
+   height:           auto;
+   line-height:      1.4em;
+   box-shadow:       3px 3px 2px gray;
+
+/* To beat TinyMCE toolbars at 999. */
+   z-index:          1000;
+   right:            125px;
+   top:              250px;
+   border:           2px solid rgba(79, 112, 153, 1);
+}
+
+div.qwizzled_main_menu_header {
+   position:         relative;
+   height:           22px !important;
+   color:            white;
+   background:       rgba(79, 112, 153, 1);
+   font-weight:      bold;
+   cursor:           move;
+}
+
+.icon_qwiz {
+   position:         absolute;
+   background:       white;
+   border:           none;
+}
+
+div.qwizzled_main_menu_title {
+   position:         absolute;
+   left:             24px;
+   top:              2px;
+   font-family:      arial, verdana, sans-serif;
+}
+
+.icon_main_menu_exit {
+   float:            right;
+   border:           none;
+   margin-top:       2px;
+   margin-right:     1px;
+   cursor:           pointer;
+}
+
+#qwizzled_main_menu_items {
+   background:              white;
+   font-family:             arial, verdana, sans-serif;
+   font-size:               10pt;
+}
+
+.qwizzled_main_menu_item,
+.qwizzled_main_menu_item_inactive {
+   border:                  1px solid white;
+   -moz-user-select:        none;
+   -webkit-user-select:     none;
+   -ms-user-select:         none;
+}
+
+.qwizzled_main_menu_item_disabled {
+   border:                  1px solid white;
+   color:                   gray;
+   -moz-user-select:        none;
+   -webkit-user-select:     none;
+   -ms-user-select:         none;
+}
+
+.qwizzled_main_menu_item:hover {
+   border:           1px solid gray;
+   cursor:           pointer;
+}
+
+.qwizzled_main_menu_item:active {
+   outline:          2px solid lightgray;
+}
+
+.qwizzled_main_menu_feedback {
+   display:          none;
+   padding:          5px;
+   background:       #FFFF77;
+}
+
+img.click_on____exit {
+   float:            right;
+   margin-top:       2px;
+   margin-right:     2px;
+   cursor:           pointer;
+}
+
+.qwizzled_image_button {
+   border:                  none;
+   background:              none;
+   padding:                 0;
+   cursor:                  pointer;
+}
+
+.qwizzled_highlight_label_border {
+   padding:          0px 2px;
+   border:           1px dotted gray;
+}
+
+#register_qqs_dialog_box {
+   position:         fixed !important;
+   min-width:        500px;
+   display:          none;
+   box-shadow:       3px 3px 2px gray;
+
+/* To beat TinyMCE toolbars at 999 and main menu at 1000. */
+   z-index:          1001;
+   left:             250px;
+   top:              150px;
+   background:       white;
+   border:           2px solid rgba(79, 112, 153, 1);
+   font-family:      arial, verdana, sans-serif;
+   font-size:        10pt;
+}
+
+#register_qqs_login,
+#register_qqs_main {
+   position:             relative;
+   display:              none;
+   background:           white;
+   padding:              5px;
+}
+#register_qqs_login input[type="text"],
+#register_qqs_login input[type="password"] {
+   width:                200px !important;
+}
+
+#register_qqs_user {
+   text-align:           right;
+   display:              none;
+                     /* top right bot left */
+   padding:              2px 5px 0px 5px;
+   background:           white;
+}
+
+.ui-dialog {
+   padding:              0 !important;
+   border:               2px solid rgba(79, 112, 153, 1) !important;
+}
+.ui-dialog-titlebar {
+   border:               0 !important;
+   border-radius:        0 !important;
+   padding:              2px 0.4em !important;
+   color:                white !important;
+   font-weight:          bold !important;
+   background:           rgba(79, 112, 153, 1) !important;
+}
+
+/* No close x-icon in login modal dialog titlebar.
+button.ui-dialog-titlebar-close {
+   display:              none;
+}
+*/
+
+/* Let qwizard dialog get on top of these! */
+.wp-editor-expand #wp-content-editor-tools {
+   z-index:              100 !important;
+}
+.wp-editor-expand div.mce-toolbar-grp {
+   z-index:              auto !important;
+}
+
+/* Keep bubble-bar wrapper on top of qwizard dialog. */
+#bubbleBarWrapper {
+   z-index:              102;
+}
+
+.qbookmark {
+   display:              none;
+}
+
+select.new_existing_dataset {
+   height:               22px;
+   width:                250px;
+   padding:              0;
+   font-size:            10pt;
+}
+
+p.login_error {
+   visibility:           hidden;
+   color:                red;
+   font-weight:          bold;
+}
+
+#new_account_info {
+   position:             absolute;
+   top:                  40px;
+   left:                 75px;
+   width:                350px;
+   padding:              8px;
+   background:           white;
+   border:               1px solid black;
+   box-shadow:           -3px 3px 2px gray;
+   display:              none;
+}
+
+img.new_account_info {
+   border:               0px;
+   cursor:               help;
+}
+
+.ui-resizable-se {
+   width:                16px !important;
+   height:               16px !important;
+}
+
+.cursor_help {
+   cursor:               help;
+}
+
+table.register_qqs {
+   border-spacing:       0;
+}
+
+table.register_qqs th,
+table.register_qqs td {
+   font-size:            10pt;
+   padding-left:         5px;
+   padding-right:        5px;
+}
+
+table.register_qqs th {
+   vertical-align:       bottom;
+}
+
+table.register_qqs td {
+   vertical-align:       top;
+}
+
+table.register_qqs th.qwizzled-border-left,
+table.register_qqs td.qwizzled-border-left {
+   border-left:          2px solid gray;
+}
+
+table.register_qqs button {
+   vertical-align:       -2px;
+}
+
+img.icon_clickable {
+   border:               0;
+   cursor:               pointer;
+   transform:            translate(0px, 3px);
+   -webkit-transform:    translate(0px, 3px);
+}
+
+input.register_checkbox {
+   margin:               0 !important;
+}
+
+input.qwiz_checkbox:before {
+   content:              none !important;
+}
+
+input.enter_qrecord_id {
+   width:            10em;
+   font-size:        inherit;
+   padding-left:     0px;
+}
+
+#register_qq_feedback {
+   font-weight:      bold;
+}
+
+.qwizzled_inline_block {
+   display:          inline-block;
+}
+
+.qwizzled_link {
+   color:            blue;
+   text-decoration:  underline;
+}
+
+.qwizzled_center {
+   text-align:       center;
+}
+
+.qwizzled_smaller {
+   font-size:        80%;
+}
+

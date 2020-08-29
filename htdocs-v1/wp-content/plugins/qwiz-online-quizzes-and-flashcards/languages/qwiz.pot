@@ -1,0 +1,1018 @@
+# Copyright (C) 2017 Qwizcards - online quizzes and flashcards
+# This file is distributed under the same license as the Qwizcards - online quizzes and flashcards package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Qwizcards - online quizzes and flashcards beta 1 for "
+"3.19\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/qwiz-online-"
+"quizzes-and-flashcards\n"
+"POT-Creation-Date: 2017-02-01 04:11:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Translators: 
+#.         The first set of strings are seen by users.
+#.         The second set is seen only by quiz creators when they 
+#.         create and edit labeled diagrams in the WordPress editor.
+#.         The last set is error messages not normally seen by
+#.         users.
+#: languages/save/strings_to_translate.php:13
+#: languages/strings_to_translate.php:13
+msgid "zero"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:14
+#: languages/strings_to_translate.php:14
+msgid "one"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:15
+#: languages/strings_to_translate.php:15
+msgid "two"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:16
+#: languages/strings_to_translate.php:16
+msgid "three"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:17
+#: languages/strings_to_translate.php:17
+msgid "four"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:18
+#: languages/strings_to_translate.php:18
+msgid "five"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:19
+#: languages/strings_to_translate.php:19
+msgid "six"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:20
+#: languages/strings_to_translate.php:20
+msgid "seven"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:21
+#: languages/strings_to_translate.php:21
+msgid "eight"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:22
+#: languages/strings_to_translate.php:22
+msgid "nine"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:23
+#: languages/strings_to_translate.php:23
+msgid "ten"
+msgstr ""
+
+#. Translators: as in "You are logged in as a team: ..."
+#: languages/save/strings_to_translate.php:26
+#: languages/strings_to_translate.php:26
+msgid "a team"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:27
+#: languages/strings_to_translate.php:27
+msgid "Add team member"
+msgstr ""
+
+#. Translators: as in "All questions..."
+#: languages/save/strings_to_translate.php:30
+#: languages/strings_to_translate.php:30
+msgid "All"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:32
+#: languages/strings_to_translate.php:32
+msgid "answer"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:33
+#: languages/strings_to_translate.php:33
+msgid "answers"
+msgstr ""
+
+#. Translators: as in "Both questions..."
+#: languages/save/strings_to_translate.php:36
+#: languages/strings_to_translate.php:36
+msgid "Both"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:38
+#: languages/strings_to_translate.php:38
+msgid "card"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:39
+#: languages/strings_to_translate.php:39
+msgid "cards"
+msgstr ""
+
+#. Translators: as in "there are three cards in total"
+#: languages/save/strings_to_translate.php:42
+#: languages/strings_to_translate.php:42
+msgid "cards total"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:44
+#: languages/strings_to_translate.php:44
+msgid "card was"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:45
+#: languages/strings_to_translate.php:45
+msgid "cards were"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:46
+#: languages/strings_to_translate.php:46
+msgid "Check answer"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:47
+#: languages/strings_to_translate.php:47
+msgid "Congratulations, you answered all questions correctly"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:48
+#: languages/strings_to_translate.php:48
+msgid "correct"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:49
+#: languages/strings_to_translate.php:49
+msgid "Correct!"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:50
+#: languages/strings_to_translate.php:50
+msgid "Could not read terms file"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:51
+#: languages/strings_to_translate.php:51
+msgid "Excellent!"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:52
+#: languages/strings_to_translate.php:52
+msgid "Flip"
+msgstr ""
+
+#. Translators: as in "Flip back to the front side"
+#: languages/save/strings_to_translate.php:55
+#: languages/strings_to_translate.php:55
+msgid "Flip back"
+msgstr ""
+
+#. Translators: as in "For topic Biology..."
+#: languages/save/strings_to_translate.php:58
+#: languages/strings_to_translate.php:58
+msgid "For topic"
+msgstr ""
+
+#. Translators: as in "[terms] found, but not [/terms]"
+#: languages/save/strings_to_translate.php:61
+#: languages/strings_to_translate.php:61
+msgid "found, but not"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:62
+#: languages/strings_to_translate.php:62
+msgid "Forgot password?"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:64
+#: languages/strings_to_translate.php:64
+msgid "Good!"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:65
+#: languages/strings_to_translate.php:65
+msgid "Got it!"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:66
+#: languages/strings_to_translate.php:66
+msgid "Great!"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:67
+#: languages/strings_to_translate.php:67
+msgid "hint"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:68
+#: languages/strings_to_translate.php:68
+msgid "Hint"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:70
+#: languages/strings_to_translate.php:70
+msgid "In finishing this"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:73
+#: languages/strings_to_translate.php:73
+msgid "In this"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:74
+#: languages/strings_to_translate.php:74
+msgid "In this %s-flashcard stack, you clicked"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:75
+#: languages/strings_to_translate.php:75
+msgid "on the first try for every card"
+msgstr ""
+
+#. Translators: as in "Five answers were incorrect"
+#: languages/save/strings_to_translate.php:78
+#: languages/strings_to_translate.php:78
+msgid "incorrect"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:80
+#: languages/strings_to_translate.php:80
+msgid "It took you"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:81
+#: languages/save/strings_to_translate.php:82
+#: languages/strings_to_translate.php:81 languages/strings_to_translate.php:82
+msgid "It took you one try"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:83
+#: languages/strings_to_translate.php:83
+msgid "It took you %s tries"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:84
+#: languages/strings_to_translate.php:84
+msgid "item"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:85
+#: languages/strings_to_translate.php:85
+msgid "items"
+msgstr ""
+
+#. Translators: as in "This quiz is in learn mode"
+#: languages/save/strings_to_translate.php:88
+#: languages/strings_to_translate.php:88
+msgid "Learn"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:89
+#: languages/strings_to_translate.php:89
+msgid "Learn mode: questions repeat until answered correctly"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:90
+#: languages/strings_to_translate.php:90
+msgid "letter"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:91
+#: languages/strings_to_translate.php:91
+msgid "letters"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:92
+#: languages/strings_to_translate.php:92
+msgid "Log in"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:93
+#: languages/strings_to_translate.php:93
+msgid "Logged in as"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:94
+#: languages/strings_to_translate.php:94
+msgid "Login incorrect. Please try again"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:96
+#: languages/strings_to_translate.php:96
+msgid ""
+"Move each item to its correct <span class=\"qwizzled_target_border\">place</"
+"span>"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:97
+#: languages/strings_to_translate.php:97
+msgid "My scores"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:98
+#: languages/strings_to_translate.php:98
+msgid "Need help?  Try the \"hint\" button"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:99
+#: languages/strings_to_translate.php:99
+msgid "Need more practice"
+msgstr ""
+
+#. Translators: as in "Click here to go to the next question"
+#: languages/save/strings_to_translate.php:102
+#: languages/strings_to_translate.php:102
+msgid "Next question"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:104
+#: languages/strings_to_translate.php:104
+msgid "No."
+msgstr ""
+
+#: languages/save/strings_to_translate.php:105
+#: languages/strings_to_translate.php:105
+msgid "No thanks"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:106
+#: languages/strings_to_translate.php:106
+msgid "No, that's not correct."
+msgstr ""
+
+#: languages/save/strings_to_translate.php:107
+#: languages/strings_to_translate.php:107
+msgid "on the first try"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:108
+#: languages/strings_to_translate.php:108
+msgid ""
+"Now you've got it, but remember your answer -- you'll see this question "
+"again soon."
+msgstr ""
+
+#. Translators: as in "Not Michael Caine?  Sign out."
+#: languages/save/strings_to_translate.php:111
+#: languages/strings_to_translate.php:111
+msgid "not"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:112
+#: languages/strings_to_translate.php:112
+msgid "Not"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:114
+#: languages/strings_to_translate.php:114
+msgid "OK.  Only %s is logged in now"
+msgstr ""
+
+#. Translators: as in "three out of four"
+#: languages/save/strings_to_translate.php:117
+#: languages/strings_to_translate.php:117
+msgid "out of"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:119
+#: languages/strings_to_translate.php:119
+msgid "Password"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:120
+#: languages/strings_to_translate.php:120
+msgid "Please try again"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:121
+#: languages/strings_to_translate.php:121
+msgid "Practice more flashcards"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:122
+#: languages/strings_to_translate.php:122
+msgid "Practice more questions"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:123
+#: languages/strings_to_translate.php:123
+msgid "Put this card at the bottom of the stack, show the next card"
+msgstr ""
+
+#. Translators: short for "questions"
+#: languages/save/strings_to_translate.php:126
+#: languages/strings_to_translate.php:126
+msgid "Qs"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:128
+#: languages/strings_to_translate.php:128
+msgid "question"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:129
+#: languages/strings_to_translate.php:129
+msgid "questions"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:130
+#: languages/strings_to_translate.php:130
+msgid "Questions in this quiz:"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:132
+#: languages/strings_to_translate.php:132
+msgid "Randomly shuffle the remaining cards"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:133
+#: languages/strings_to_translate.php:133
+msgid "Record score/credit?"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:134
+#: languages/strings_to_translate.php:134
+msgid "Register"
+msgstr ""
+
+#. Translators: as in "three cards have been reviewed"
+#: languages/save/strings_to_translate.php:135
+#: languages/save/strings_to_translate.php:140
+#: languages/strings_to_translate.php:135
+#: languages/strings_to_translate.php:140
+msgid "reviewed"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:136
+#: languages/strings_to_translate.php:136
+msgid "Remember"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:137
+#: languages/strings_to_translate.php:137
+msgid "Remove this card from the stack"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:142
+#: languages/strings_to_translate.php:142
+msgid "response"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:143
+#: languages/strings_to_translate.php:143
+msgid "responses"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:144
+#: languages/strings_to_translate.php:144
+msgid "Review this flashcard stack again"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:146
+#: languages/strings_to_translate.php:146
+msgid "Save preference (do not use on shared computer"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:147
+#: languages/strings_to_translate.php:147
+msgid "Show the other side"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:148
+#: languages/strings_to_translate.php:148
+msgid "Sign out"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:149
+#: languages/strings_to_translate.php:149
+msgid "Signed out"
+msgstr ""
+
+#. Translators: as in "Shuffle the deck of cards"
+#: languages/save/strings_to_translate.php:152
+#: languages/strings_to_translate.php:152
+msgid "Shuffle"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:154
+#: languages/strings_to_translate.php:154
+msgid "Skip login in the future"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:155
+#: languages/strings_to_translate.php:155
+msgid "Sorry, that's not correct."
+msgstr ""
+
+#: languages/save/strings_to_translate.php:156
+#: languages/strings_to_translate.php:156
+msgid "Sorry, you entered more than three incorrect letters."
+msgstr ""
+
+#. Translators: as in "Click here to start quiz"
+#: languages/save/strings_to_translate.php:159
+#: languages/strings_to_translate.php:159
+msgid "Start quiz"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:161
+#: languages/strings_to_translate.php:161
+msgid "Start reviewing cards"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:163
+#: languages/strings_to_translate.php:163
+msgid "Take the quiz again"
+msgstr ""
+
+#. Translators: as in "This quiz is in test mode"
+#: languages/save/strings_to_translate.php:166
+#: languages/strings_to_translate.php:166
+msgid "Test"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:167
+#: languages/strings_to_translate.php:167
+msgid "Test mode: incorrectly-answered questions do not repeat"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:168
+#: languages/strings_to_translate.php:168
+msgid "The topic of the only question you answered incorrectly is"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:169
+#: languages/strings_to_translate.php:169
+msgid "There was"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:170
+#: languages/strings_to_translate.php:170
+msgid "There were"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:171
+#: languages/strings_to_translate.php:171
+msgid "These are the topics of cards where you clicked"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:172
+#: languages/strings_to_translate.php:172
+msgid "These are the topics of questions that you answered incorrectly"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:173
+#: languages/strings_to_translate.php:173
+msgid "This"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:174
+#: languages/strings_to_translate.php:174
+msgid "This flashcard stack had %s cards."
+msgstr ""
+
+#: languages/save/strings_to_translate.php:175
+#: languages/strings_to_translate.php:175
+msgid "This is the only topic for which you clicked"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:176
+#: languages/strings_to_translate.php:176
+msgid "for each card"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:177
+#: languages/strings_to_translate.php:177
+msgid "to answer this question correctly"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:178
+#: languages/strings_to_translate.php:178
+msgid "to answer these questions correctly"
+msgstr ""
+
+#. Translators: as in "there are three cards to go"
+#: languages/save/strings_to_translate.php:181
+#: languages/strings_to_translate.php:181
+msgid "to go"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:183
+#: languages/strings_to_translate.php:183
+msgid "tries"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:184
+#: languages/strings_to_translate.php:184
+msgid "try"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:185
+#: languages/strings_to_translate.php:185
+msgid "Type a letter"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:186
+#: languages/strings_to_translate.php:186
+msgid "Type a letter/number"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:187
+#: languages/strings_to_translate.php:187
+msgid "Type %s+ letters"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:188
+#: languages/strings_to_translate.php:188
+msgid "Type %s+ letters/numbers"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:189
+#: languages/strings_to_translate.php:189
+msgid "Type letters in the box"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:190
+#: languages/strings_to_translate.php:190
+msgid "Type numbers in the box"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:192
+#: languages/strings_to_translate.php:192
+msgid "until you felt comfortable enough to click"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:193
+#: languages/strings_to_translate.php:193
+msgid "for this card"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:194
+#: languages/strings_to_translate.php:194
+msgid "User name"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:196
+#: languages/strings_to_translate.php:196
+msgid "View summary report"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:198
+#: languages/strings_to_translate.php:198
+msgid "You are logged in as"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:199
+#: languages/strings_to_translate.php:199
+msgid "You answered all of these questions correctly"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:200
+#: languages/strings_to_translate.php:200
+msgid "You answered both of these questions correctly"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:201
+#: languages/strings_to_translate.php:201
+msgid "You answered this question correctly"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:202
+#: languages/strings_to_translate.php:202
+msgid "You can get"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:203
+#: languages/strings_to_translate.php:203
+msgid "You can get two hint letters"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:205
+#: languages/strings_to_translate.php:205
+msgid "You entered"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:206
+#: languages/strings_to_translate.php:206
+msgid "You wrote"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:207
+#: languages/strings_to_translate.php:207
+msgid "Your score is"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:208
+#: languages/strings_to_translate.php:208
+msgid "Your score is %s correct out of %s"
+msgstr ""
+
+#. Translators:
+#.         The following strings are the second set.
+#.         These are part of the labeled diagram editing function
+#.         that is only seen by quiz creators.
+#: languages/save/strings_to_translate.php:214
+#: languages/strings_to_translate.php:214
+msgid ""
+"A new question shortcode [q] has been placed inside an existing question.  "
+"Please move it outside and try again."
+msgstr ""
+
+#: languages/save/strings_to_translate.php:215
+#: languages/strings_to_translate.php:215
+msgid ""
+"Create a target \"drop zone\" for a label - click here, then click label"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:216
+#: languages/strings_to_translate.php:216
+msgid ""
+"Could not find editing window.  You need to be editing a page or post in "
+"Visual mode."
+msgstr ""
+
+#: languages/save/strings_to_translate.php:217
+#: languages/strings_to_translate.php:217
+msgid "Did not find [qwiz]...[/qwiz] shortcodes"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:218
+#: languages/strings_to_translate.php:218
+msgid "End of labeled-diagram question"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:219
+#: languages/strings_to_translate.php:219
+msgid "Error"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:220
+#: languages/strings_to_translate.php:220
+msgid "Error: no text selected"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:221
+#: languages/strings_to_translate.php:221
+msgid "Label [l] is blank"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:222
+#: languages/strings_to_translate.php:222
+msgid "labeled diagram editing menu"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:223
+#: languages/strings_to_translate.php:223
+msgid "Please select \"Visual\" mode to create a target/drop zone"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:224
+#: languages/strings_to_translate.php:224
+msgid ""
+"Select the text or click on the image (you may have to click twice) where "
+"you want the target \"drop zone\" for this label"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:225
+#: languages/strings_to_translate.php:225
+msgid ""
+"Sorry, labeled diagrams do not work with images that have captions.  Please "
+"edit the image, delete the caption, and try again."
+msgstr ""
+
+#: languages/save/strings_to_translate.php:226
+#: languages/strings_to_translate.php:226
+msgid ""
+"You can position and resize the target \"drop zone\" how you want in "
+"relation to the image"
+msgstr ""
+
+#. Translators: as in "choice number one"
+#: languages/save/strings_to_translate.php:232
+#: languages/strings_to_translate.php:232
+msgid "choice"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:234
+#: languages/strings_to_translate.php:234
+msgid "Did not find answer (\"[a]\") -- card back -- for"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:235
+#: languages/strings_to_translate.php:235
+msgid "Did not find any labels [l] within [qwiz]...[/qwiz] shortcode pairs"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:236
+#: languages/strings_to_translate.php:236
+msgid "Did not find any questions [q] within [qwiz]...[/qwiz] shortcode pairs"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:237
+#: languages/strings_to_translate.php:237
+msgid "Did not find choices (\"[c]\") for"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:238
+#: languages/strings_to_translate.php:238
+msgid "Did not find choices (\"[c]\") or labels (\"[l]\") for"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:239
+#: languages/strings_to_translate.php:239
+msgid ""
+"Did not find end of image area.  Please check that all labels and target "
+"\"drop zones\" were correctly processed and saved during the edit of this "
+"page"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:240
+#: languages/strings_to_translate.php:240
+msgid "Did not find feedback (\"[f]\") for"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:241
+#: languages/strings_to_translate.php:241
+msgid "Did not find question tags (\"[q]\") for"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:242
+#: languages/strings_to_translate.php:242
+msgid ""
+"Did not find target \"drop-zones\" for labels.  Please check that all labels "
+"and target \"drop zones\" were correctly processed and saved during the edit "
+"of this page"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:243
+#: languages/strings_to_translate.php:243
+msgid "Did not find [terms]...[/terms] shortcode pair in file"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:244
+#: languages/strings_to_translate.php:244
+msgid "Do you want to continue?  (Click \"Cancel\" to sign out)"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:245
+#: languages/strings_to_translate.php:245
+msgid "Do you want to continue as this team?"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:246
+#: languages/strings_to_translate.php:246
+msgid "does not match number of labels"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:247
+#: languages/strings_to_translate.php:247
+msgid "Error found"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:248
+#: languages/strings_to_translate.php:248
+msgid "Errors found"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:249
+#: languages/strings_to_translate.php:249
+msgid "(exit text) must be last"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:250
+#: languages/strings_to_translate.php:250
+msgid "Feedback [f] is required for a one-choice question"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:251
+#: languages/strings_to_translate.php:251
+msgid ""
+"For [textentry] question, wildcard choice (\"*\", for any other user entry) "
+"cannot be marked correct \"[c*]\""
+msgstr ""
+
+#: languages/save/strings_to_translate.php:252
+#: languages/strings_to_translate.php:252
+msgid ""
+"For [textentry] question, wildcard choice (\"*\", for any other user entry) "
+"must be accompanied by feedback \"[f]\""
+msgstr ""
+
+#: languages/save/strings_to_translate.php:253
+#: languages/strings_to_translate.php:253
+msgid "Got more than one answer (\"[a]\") -- card back -- for"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:254
+#: languages/strings_to_translate.php:254
+msgid "More than one choice was marked correct"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:255
+#: languages/strings_to_translate.php:255
+msgid "More than one feedback shortcode [f] given with choice"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:256
+#: languages/strings_to_translate.php:256
+msgid "No choice was marked correct"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:257
+#: languages/strings_to_translate.php:257
+msgid "No data read from terms file"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:258
+#: languages/strings_to_translate.php:258
+msgid "No text given for [textentry] choice"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:259
+#: languages/strings_to_translate.php:259
+msgid "Number of feedback items does not match number of choices"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:260
+#: languages/strings_to_translate.php:260
+msgid "Number of feedback items"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:261
+#: languages/strings_to_translate.php:261
+msgid "Please fix and try again"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:262
+#: languages/strings_to_translate.php:262
+msgid "Text before header"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:263
+#: languages/strings_to_translate.php:263
+msgid "Text before intro"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:264
+#: languages/strings_to_translate.php:264
+msgid ""
+"There should be two feedback items -- correct and incorrect -- for each label"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:265
+#: languages/strings_to_translate.php:265
+msgid "[textentry] on back of card, but not on front"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:266
+#: languages/strings_to_translate.php:266
+msgid "Too many feedback shortcodes"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:267
+#: languages/strings_to_translate.php:267
+msgid ""
+"Topic(s) were given for at least one question, but at least one question "
+"doesn't have a topic"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:268
+#: languages/strings_to_translate.php:268
+msgid "Unmatched [qdeck] - [/qdeck] pairs"
+msgstr ""
+
+#: languages/save/strings_to_translate.php:269
+#: languages/strings_to_translate.php:269
+msgid "Unmatched [qwiz] - [/qwiz] pairs"
+msgstr ""
+
+#: qwiz_admin.php:17
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Qwizcards - online quizzes and flashcards"
+msgstr ""
+
+#. #-#-#-#-#  qwiz.pot (Qwizcards - online quizzes and flashcards beta 1 for 3.19)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  qwiz.pot (Qwizcards - online quizzes and flashcards beta 1 for 3.19)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://qwizcards.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easy online quizzes and flashcards for WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dan Kirshner"
+msgstr ""
