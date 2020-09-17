@@ -1,0 +1,82 @@
+{
+    "st1": {
+        "id": 1,
+        "name": "Australian Capital Territory",
+        "shortname": "ACT",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#1083b5",
+        "color_map_over": "#0d678d"
+    },
+    "st2": {
+        "id": 2,
+        "name": "New South Wales",
+        "shortname": "NSW",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#ff6600",
+        "color_map_over": "#e05a00"
+    },
+    "st3": {
+        "id": 3,
+        "name": "Northern Territory",
+        "shortname": "NT",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#d71d3d",
+        "color_map_over": "#c11a37"
+    },
+    "st4": {
+        "id": 4,
+        "name": "Queensland",
+        "shortname": "QLD",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#329125",
+        "color_map_over": "#2c7f20"
+    },
+    "st5": {
+        "id": 5,
+        "name": "South Australia",
+        "shortname": "SA",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#ffcd00",
+        "color_map_over": "#dfb300"
+    },
+    "st6": {
+        "id": 6,
+        "name": "Tasmania",
+        "shortname": "TAS",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#ff3333",
+        "color_map_over": "#ce2929"
+    },
+    "st7": {
+        "id": 7,
+        "name": "Victoria",
+        "shortname": "VIC",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#7a4a9f",
+        "color_map_over": "#633c81"
+    },
+    "st8": {
+        "id": 8,
+        "name": "Western Australia",
+        "shortname": "WA",
+        "link": "",
+        "comment": "",
+        "image": "",
+        "color_map": "#24abe7",
+        "color_map_over": "#209acf"
+    }
+}

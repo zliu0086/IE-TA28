@@ -1,0 +1,631 @@
+/**handles:qwizcards_css_handle**/
+.qwiz_shortcodes_hidden {
+   position:         relative;
+   visibility:       hidden;
+   height:           300px;
+}
+
+.qwiz_wrapper_fallback,
+.qdeck_wrapper_fallback {
+   position:         absolute;
+   visibility:       hidden;
+   height:           300px;
+   width:            500px;
+   border:           1px solid black;
+   padding-top:      125px;
+   background:       white;
+   text-align:       center;
+}
+
+/* The "canvas" for each item: question, answers (choices), feedback. */
+div.qcard_window {
+   position:            relative;
+   width:               500px;
+   height:              300px;
+   margin-bottom:       80px;   /* Progress, header, and next-buttons. */
+}
+
+div.card-container {
+   position:            relative;
+   display:             block;
+   width:               100%;
+   height:              100%;
+   padding:             0;
+   margin:              0;
+}
+div.card-container img {
+   opacity:             1;
+}
+
+div.card-container div.qcard_card {
+   border-radius:       0px;
+   width:               100%;
+   height:              100%;
+   position:            absolute;
+   display:             inline-block;
+   padding:             0;
+   margin:              0;
+}
+div.qdeck-mobile div.card-container div.qcard_card {
+   width:               100% !important;
+   height:              100% !important;
+}
+
+/* Some styles set padding to 0. */
+div.qcard_window ul {
+   padding-left:        40px;
+}
+
+/* Mobile qcard window fills screen. */
+div.qdeck-mobile {
+   position:            fixed;
+   left:                0;
+   top:                 0;
+   width:               100vw;       /* 100% of viewport width, height. */
+   height:              100vh;
+   height:              -webkit-fill-available;
+   z-index:             199999;
+   background:          white;
+   box-sizing:          border-box;  /* Width and height include border */
+   -moz-box-sizing:     border-box;  /* and padding, not margin. */
+}
+
+/* Card container fills to size of qcard window, but transparent bottom border
+   leaves room for next-buttons after accounting for progress and header.
+   Negative bottom margin: next-buttons within "border." */
+div.qdeck-mobile div.card-container {
+   width:               100%;
+   height:              100%;
+   box-sizing:          border-box;
+   border-bottom:       80px solid rgba(0, 0, 0, 0);
+   margin-bottom:       -80px;
+}
+
+.qcard_progress {
+   position:            relative;
+   text-align:          right;
+   height:              16px;
+   font-size:           9pt;
+   font-family:         Arial, sans-serif;
+}
+
+.qcard_progress p {
+   font-size:           9pt;
+   color:               gray;
+   margin:              0 !important;
+}
+
+span.unpaid_msg {
+   display:             none;
+}
+
+/* Create a click target larger than the image icon. Appears to "get on top of"
+ * next div (mode) only if positioned absolutely. */
+div.go-mobile-qdeck,
+div.exit-mobile-qdeck {
+   display:             none;
+   position:            absolute;
+   width:               35px;
+   height:              40px;
+   top:                 -10px;
+   left:                -15px;
+   z-index:             2;
+}
+img.go-mobile-qdeck,
+img.exit-mobile-qdeck {
+   display:             none;
+   float:               left;
+   width:               12px;
+   height:              12px;
+   margin:              4px 2px 0 0;
+   border:              none !important;
+}
+
+/* beg-bck-fwd-end buttons  -- qwiz.css */
+
+span.card-number-qdeck {
+   display:             inline-block;
+   float:               left;
+   min-width:           20px;
+   text-align:          center;
+   margin-bottom:       -5px;
+   color:               gray;
+}
+
+
+.qwiz-icon-bounce {
+   animation-name:                    icon-bounce;
+   animation-duration:                3.5s;
+   animation-iteration-count:         infinite;
+
+   -webkit-animation-name:            icon-bounce;
+   -webkit-animation-duration:        3.5s;
+   -webkit-animation-iteration-count: infinite;
+}
+@keyframes icon-bounce {
+   from {
+      margin-top:       -2px;
+   } 7% {
+      margin-top:       -10px;
+   } 15% {
+      margin-top:       -2px;
+   } 22% {
+      margin-top:       -7px;
+   } 30% {
+      margin-top:       -2px;
+   } 37% {
+      margin-top:       -7px;
+   } 50% {
+      margin-top:       -2px;
+   } to {
+      margin-top:       -2px;
+   }
+}
+
+@-webkit-keyframes icon-bounce {
+   from {
+      margin-top:       -2px;
+   } 7% {
+      margin-top:       -10px;
+   } 15% {
+      margin-top:       -2px;
+   } 22% {
+      margin-top:       -7px;
+   } 30% {
+      margin-top:       -2px;
+   } 37% {
+      margin-top:       -7px;
+   } 50% {
+      margin-top:       -2px;
+   } to {
+      margin-top:       -2px;
+   }
+}
+
+span.qwiz_review_card_note {
+   color:               green;
+   font-size:           80%;
+}
+
+div.qdeck-pay_unlock_menu {
+   width:               300px;
+}
+div.qdeck-pay_unlock_menu a {
+   font-weight:         bold;
+}
+
+div.qdeck-usermenu {
+   top:                 12px;
+   width:               225px;
+}
+div.qdeck-usermenu div,
+div.qdeck-pay_unlock_menu div {
+   padding-bottom:      5px;
+}
+
+div.qdeck-login {
+   text-align:          center;
+   font-weight:         normal;
+}
+
+div.qdeck-login p {
+   margin-top:          3px;
+   margin-bottom:       6px;
+}
+
+div.qdeck-login input[type="text"],
+div.qdeck-login input[type="password"] {
+   padding:             2px;
+   min-height:          auto   !important;
+   line-height:         normal !important;
+   width:               300px  !important;
+}
+
+div.qdeck-login table {
+   width:               auto;
+   margin:              auto;
+   border:              0px;
+}
+
+div.qdeck-login td {
+   border:              none;
+   padding:             3px;
+}
+
+.qdeck-remember {
+   position:            relative;
+   font-size:           9pt;
+}
+
+span.qdeck-remember span {
+   position:            relative;
+   top:                 2px;
+}
+
+span.qdeck-remember input[type="checkbox"] {
+   transform:           scale(0.8);
+   -webkit-transform:   scale(0.8);
+   margin:              0;
+   vertical-align:      baseline;
+}
+
+div.qdeck-login p.login_error {
+   visibility:          hidden;
+   color:               red;
+   font-weight:         bold;
+   text-align:          center;
+}
+
+div.qcard_header {
+   color:               white;
+   background:          black;
+   margin:              0px;
+   padding:             0px;
+}
+
+/* Any sub-elements of header have zero margin. */
+div.qcard_header * {
+   margin:              0px !important;
+                    /* top right bot left */
+   padding:             0px 5px 0px 5px !important;
+   font-size:           10pt;
+}
+
+/* Card */
+div.qcard_card {
+   position:            relative;
+}
+
+div.qcard_textentry {
+   display:             inline-block;
+   position:            relative;
+   width:               240px;
+   font-weight:         bold;
+   color:               blue;
+}
+
+div.qcard_single_char_entry {
+   display:             inline-block;
+   position:            relative;
+   font-weight:         bold;
+   color:               blue;
+}
+
+input.qcard_textentry,
+input.qcard_single_char_entry {
+   width:               228px;
+   padding:             5px;
+   font-weight:         bold;
+   color:               blue;
+   font-size:           100%;
+}
+
+div.card_back_textentry {
+   /*
+   position:            absolute;
+   top:                 0px;
+   left:                0px;
+   display:             none;
+   */
+   position:            relative;
+}
+
+.back_qcard_textentry {
+   font-weight:         bold;
+   color:               blue;
+}
+
+input.qcard_textentry::-webkit-input-placeholder {
+   font-size:           83%;
+   font-weight:         normal;
+   color:               gray;
+}
+
+input.qcard_textentry::-moz-placeholder {
+   font-size:           83%;
+   font-weight:         normal;
+   color:               gray;
+}
+
+/* Older versions of Firefox */
+input.qcard_textentry:-moz-placeholder {
+   font-size:           83%;
+   font-weight:         normal;
+   color:               gray;
+}
+
+input.qcard_textentry:-ms-input-placeholder {
+   font-size:           83%;
+   font-weight:         normal;
+   color:               gray;
+}
+
+button.textentry_hint {
+   position:            absolute;
+   right:               0px;
+   top:                 50%;
+   transform:           translateY(-50%);
+   -webkit-transform:   translateY(-50%);
+   font-size:           11px !important;
+   line-height:         90%;
+                    /* top right bot left */
+   padding:             2px 2px 1px 2px;
+   border-radius:       5px;
+   display:             none;
+}
+
+.back_textentry_p {
+   margin-top:          0px;
+}
+
+span.qdeck_hangman {
+   position:            relative;
+   display:             inline-block;
+   height:              1em;
+}
+
+span.qdeck_hangman span.hangman_entry {
+   padding-left:        4px;
+   display:             inline-block;
+   height:              28px;
+   font-family:         'courier new';
+   font-size:           125%;
+   font-weight:         bold;
+   color:               blue;
+   background:          white;
+}
+
+span.qdeck_hangman input {
+   position:            absolute;
+   left:                0;
+   top:                 -4px;
+   height:              1.45em;
+   box-sizing:          border-box;  /* Width and height include border */
+   -moz-box-sizing:     border-box;  /* and padding, not margin. */
+   width:               100%;
+   background:          none;
+   font-family:         'courier new';
+   font-size:           125%;
+   font-weight:         bold;
+   letter-spacing:      0.055em;   /* Pad out en-space to match regular chars
+                                      plus hair-space. */
+   padding:             3px;
+}
+
+span.qdeck_hangman span.hangman_type_letters,
+span.qdeck_hangman span.hangman_status {
+   position:            absolute;
+   z-index:             2;
+   left:                0px;
+   top:                 2.0em;
+   line-height:         110%;
+   text-align:          left;
+   font-size:           80%;
+   white-space:         nowrap;
+   padding:             3px;
+   background:          rgba(240, 240, 240, 0.4);
+   border:              1px solid gray;
+   border-radius:       5px;
+   box-shadow:          -3px 3px 2px lightgray;
+}
+
+/* "Type letters in box" as call-out.  Up-arrow above call-out. */
+span.qdeck_hangman span.hangman_type_letters::after {
+   content:             "";
+   position:            absolute;
+   left:                9px;
+   top:                 -5px;
+   width:               7px;
+   height:              7px;
+   border-width:        1px 1px 0 0;
+   border-color:        gray;
+   border-style:        solid;
+   background:          rgba(240, 240, 240, 0.7);
+
+   -webkit-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+
+/* Hide border (bottom of up-arrow) on call-out box. */
+span.qdeck_hangman span.hangman_type_letters::before {
+   content:             "";
+   position:            absolute;
+   left:                8px;
+   top:                 -1px;
+   width:               12px;
+   height:              1px;
+   background:          rgba(240, 240, 240, 1.0);
+}
+span.qdeck_hangman span.hangman_status {
+   display:             none;
+}
+span.type_letters {
+   font-family:         arial, verdana, sans-serif;
+   font-size:           8pt;
+   font-weight:         normal;
+   color:               #55f;
+}
+.qcard-inline {
+   display:             inline;
+}
+span.qdeck_hangman .hangman_incorrect_letters_allowed {
+   font-weight:         normal  !important;
+   font-size:           125%    !important;
+   padding:             0px     !important;
+   /*
+   background:          #40FF00 !important;
+   */
+   background:          white !important;
+}
+span.qdeck_hangman .hangman_incorrect_letters_exceeded {
+   font-weight:         normal  !important;
+   font-size:           125%    !important;
+   padding:             0px     !important;
+   /*
+   background:          #FA5858 !important;
+   */
+   background:          white !important;
+}
+.qdeck_hangman_msg {
+   display:             none;
+}
+
+div.qcard-front-back {
+   position:            absolute;
+   width:               100%;     /* DKTMP */
+   height:              100%;     /* DKTMP */
+   min-height:          165px;
+   border-collapse:     separate;
+   background-color:    white;
+
+   box-sizing:          border-box;  /* Width and height include border */
+   -moz-box-sizing:     border-box;  /* and padding, not margin. */
+}
+div.qdeck-mobile div.qcard-front-back {
+   overflow:            auto;
+}
+
+div.qcard-border-important {
+
+   /* "!important", to overcome theme styling, if there. */
+   border-width:        2px !important;
+   border-style:        solid !important;
+   border-color:        black !important;
+}
+div.qcard-border {
+
+   /* Alternative to important when user specifies border styling. */
+   border-width:        2px;
+   border-style:        solid;
+   border-color:        black;
+}
+
+div.qcard-front {
+   min-height:          165px;
+   background:          white;
+}
+
+div.qcard_content {
+   position:            relative;
+   text-align:          center;
+   font-size:           12pt;
+   font-weight:         bold;
+}
+div.qcard_content_size {
+   display:             inline-block;
+   position:            relative;
+   padding:             5px;
+}
+div.qcard_content_size_alt {
+   display:             none;
+   padding:             5px;
+}
+
+div.qcard_card img {
+   border:              none !important;
+   box-shadow:          none !important;
+}
+
+p.topic_list {
+   font-weight:         normal;
+   text-align:          left;
+   margin-left:         2em !important;
+   text-indent:         -2em;
+}
+
+div.icon_qdeck {
+   position:            absolute;
+   left:                2px;
+   bottom:              2px;
+   width:               16px;
+   height:              16px;
+   line-height:         0px;
+   z-index:             2;
+}
+
+img.icon_qdeck {
+   opacity:             0.4;
+}
+
+img.icon_qdeck:hover {
+   opacity:             1.0;
+}
+
+div.qcard-back {
+   background-image:    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAf4AAAE2CAIAAAAPtmerAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEnklEQVR4nO3YMW1AMRQEwTgyf3ix9Mm8sLCLnUFw1Ra3ZuYHgJLf1wMAuE36AXKkHyBH+gFypB8gR/oBcqQfIEf6AXKkHyBH+gFypB8gR/oBcqQfIEf6AXKkHyBH+gFypB8gR/oBcqQfIEf6AXKkHyBH+gFypB8gR/oBcqQfIEf6AXKkHyBH+gFypB8gR/oBcqQfIEf6AXKkHyBH+gFypB8gR/oBcqQfIEf6AXKkHyBH+gFypB8gR/oBcqQfIEf6AXKkHyBH+gFypB8gR/oBcqQfIGf//P293gDAVWtmXm8A4CqHD0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+Ts883rDQBctWakH6DF4QOQI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA5+3zzegMAV60Z6QdocfgA5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9Azj7fvN4AwFVrRvoBWhw+ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkLPPN683AHDVmpF+gBaHD0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+Ts883rDQBctWakH6DF4QOQI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA5+3zzegMAV60Z6QdocfgA5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9Azj7fvN4AwFVrRvoBWhw+ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkLPPN683AHDVmpF+gBaHD0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+RIP0CO9APkSD9AjvQD5Eg/QI70A+Ts883rDQBctWakH6DF4QOQI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA50g+QI/0AOdIPkCP9ADnSD5Aj/QA5/8mNPTHI1j+2AAAAAElFTkSuQmCC);
+   background-repeat:   no-repeat;
+   background-size:     contain;
+   background-position: center;
+   background-attachment:  local;
+   min-height:          165px;
+   line-height:         25px;
+   font-size:           12pt;
+
+   /* Initial setting in order to show intro (Firefox).
+   visibility:          hidden; */
+}
+
+/* Set min-width - WordPress 100% won't work if container is small. */
+div.wp-audio-shortcode {
+   min-width:           350px !important;
+}
+
+div.qcard_card button.cbutton {
+   display:          none;
+}
+.qcard_next_buttons {
+   position:            relative;
+   margin-top:          5px;
+   text-align:          center;
+}
+.clear {
+   clear:               both;
+}
+
+.qdeck-center {
+   text-align:          center;
+}
+.qdeck-smaller {
+   font-size:           80%;
+}
+div.qdeck-focusable {
+   width:               5px;
+   height:              2px;
+   overflow:            hidden;
+}
+div.qdeck-focusable input {
+   border:              0px;
+   background:          none;
+}
+
+div.qwiz_no_click_flip {
+   display:             inline;
+}
+
+/* Some WordPress themes eat these.  Restore. */
+input[type="checkbox"] {
+   -webkit-appearance:  checkbox !important;
+}
+input[type="radio"] {
+   -webkit-appearance:  radio !important;
+}
+input[type="submit"],
+input[type="button"] {
+   -webkit-appearance:  button !important;
+}
+/*
+select {
+   -webkit-appearance:  textfield !important;
+}
+*/
+
+/* For qwizard and user-page TinyMCE table plugin. */
+.mce-item-table td,
+.mce-item-table th {
+   min-width:           25px !important;
+}
+/* To move table menu out of way. */
+.mce-floatpanel {
+   transform:           translate(0,40px) !important;
+}
