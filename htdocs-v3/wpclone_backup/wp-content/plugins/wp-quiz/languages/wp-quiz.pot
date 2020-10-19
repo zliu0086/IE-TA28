@@ -1,0 +1,1845 @@
+# Copyright (C) 2018 rank-math
+# This file is distributed under the same license as the rank-math package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Quiz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: MyThemeShop\n"
+"Last-Translator: MyThemeShop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: 2019-08-13 09:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Language: "
+
+#: includes/Assets.php:52 templates/quiz-types/trivia/questions/question.php:60
+msgid "Correct!"
+msgstr ""
+
+#: includes/Assets.php:53 templates/quiz-types/trivia/questions/question.php:61
+msgid "Wrong!"
+msgstr ""
+
+#: includes/Assets.php:54
+#, php-format
+msgid "You got %%score%% out of %%total%%"
+msgstr ""
+
+#: includes/Assets.php:55
+#, php-format
+msgid "I got %%score%% out of %%total%%, and you?"
+msgstr ""
+
+#: includes/Assets.php:56
+msgid "You voted"
+msgstr ""
+
+#: includes/Assets.php:57
+msgid "Please enter your name and email address!"
+msgstr ""
+
+#: includes/Assets.php:58
+msgid "Error submitting details, please try again"
+msgstr ""
+
+#: includes/Assets.php:59
+msgid "Can not load profile data"
+msgstr ""
+
+#: includes/Assets.php:60
+msgid "Can not load profile avatar"
+msgstr ""
+
+#: includes/Assets.php:61
+msgid "You do not have any friends which use this app"
+msgstr ""
+
+#. translators: Facebook name.
+#: includes/Assets.php:63
+#, php-format
+msgid "Continue as %s"
+msgstr ""
+
+#: includes/Assets.php:64
+msgid "Username or password must not be empty"
+msgstr ""
+
+#: includes/Assets.php:65
+msgid "You must fill all required fields"
+msgstr ""
+
+#: includes/Assets.php:66
+msgid "Password does not match"
+msgstr ""
+
+#: includes/WPQuiz.php:89
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: includes/WPQuiz.php:96
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/QuizType.php:329
+msgid "This method must be overridden in quiz type classes"
+msgstr ""
+
+#. translators: %1$s: number of correct answers, %2$s: total questions.
+#: includes/ShowAnsweredQuiz.php:217
+#: templates/quiz-types/trivia/email/quiz-result.php:20
+#, php-format
+msgid "You got %1$s out of %2$s"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:78
+msgid "Quizzes"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:79
+msgid "Quiz"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:80
+msgctxt "wp-quiz"
+msgid "Add New Quiz"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:81
+msgid "Add New Quiz"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:82
+msgid "Edit Quiz"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:83
+msgid "New Quiz"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:84
+msgid "View Quiz"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:85
+msgid "Search Quizzes"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:86
+msgid "No Quizzes found"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:87
+msgid "No Quizzes found in Trash"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:88
+msgid "Parent Quiz:"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:89 includes/GDPR.php:310
+msgid "WP Quiz"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:90
+msgid "All Quizzes"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:175
+msgid "Quiz Name"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:176
+msgid "Shortcode"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:177 includes/GDPR.php:166
+msgid "Quiz type"
+msgstr ""
+
+#: includes/PostTypeQuiz.php:178
+msgid "Date"
+msgstr ""
+
+#: includes/GDPR.php:31
+msgid "WP Quiz Players"
+msgstr ""
+
+#: includes/GDPR.php:35
+msgid "WP Quiz Subscribers"
+msgstr ""
+
+#: includes/GDPR.php:75
+msgid "Created date"
+msgstr ""
+
+#: includes/GDPR.php:82
+msgid "Updated date"
+msgstr ""
+
+#: includes/GDPR.php:89
+msgid "User IP"
+msgstr ""
+
+#: includes/GDPR.php:96
+msgid "Facebook ID"
+msgstr ""
+
+#: includes/GDPR.php:103
+msgid "Facebook email"
+msgstr ""
+
+#: includes/GDPR.php:110
+msgid "Facebook first name"
+msgstr ""
+
+#: includes/GDPR.php:117
+msgid "Facebook last name"
+msgstr ""
+
+#: includes/GDPR.php:124
+msgid "Facebook gender"
+msgstr ""
+
+#: includes/GDPR.php:131
+msgid "Facebook avatar"
+msgstr ""
+
+#: includes/GDPR.php:143
+msgid "ID:"
+msgstr ""
+
+#: includes/GDPR.php:145
+msgid "Name:"
+msgstr ""
+
+#: includes/GDPR.php:152
+msgid "Facebook friends"
+msgstr ""
+
+#: includes/GDPR.php:159
+msgid "Quiz name"
+msgstr ""
+
+#: includes/GDPR.php:173
+msgid "Played at"
+msgstr ""
+
+#: includes/GDPR.php:180
+msgid "Number of correct answers"
+msgstr ""
+
+#: includes/GDPR.php:187
+msgid "Answered"
+msgstr ""
+
+#: includes/GDPR.php:202
+msgid "Result"
+msgstr ""
+
+#. translators: player index.
+#: includes/GDPR.php:211
+#, php-format
+msgid "Player #%d"
+msgstr ""
+
+#: includes/GDPR.php:250
+msgid "Subscribe email"
+msgstr ""
+
+#: includes/GDPR.php:257
+msgid "Subscribe name"
+msgstr ""
+
+#: includes/GDPR.php:264
+msgid "Subscribe at"
+msgstr ""
+
+#: includes/GDPR.php:271
+msgid "Consent"
+msgstr ""
+
+#: includes/GDPR.php:278
+msgid "Mail service"
+msgstr ""
+
+#. translators: subscriber index.
+#: includes/GDPR.php:287
+#, php-format
+msgid "Subscriber #%d"
+msgstr ""
+
+#. translators: email address.
+#: includes/GDPR.php:382
+#, php-format
+msgid "Removed subscriber %s"
+msgstr ""
+
+#. translators: email address.
+#: includes/GDPR.php:386
+#, php-format
+msgid "Email %s was unable to be removed at this time."
+msgstr ""
+
+#. translators: player ID.
+#: includes/GDPR.php:421
+#, php-format
+msgid "Removed player #%s"
+msgstr ""
+
+#. translators: player ID.
+#: includes/GDPR.php:425
+#, php-format
+msgid "Player #%s was unable to be removed at this time."
+msgstr ""
+
+#. translators: quiz type.
+#: includes/Quiz.php:322
+#, php-format
+msgid "Quiz type %s does not exist"
+msgstr ""
+
+#: includes/Helper.php:33
+msgid "Just tell us who you are to view your results!"
+msgstr ""
+
+#: includes/Helper.php:34
+msgid "I consent to having form collect my name and email!"
+msgstr ""
+
+#. translators: %1$s: privacy policy link open tag, %2$s: privacy policy link close tag.
+#: includes/Helper.php:36
+#, php-format
+msgid ""
+"The form collects name and email so that we can add you to our newsletter "
+"list. Check out our %1$sprivacy policy%2$s to know how we protect and manage "
+"your submitted data."
+msgstr ""
+
+#: includes/Helper.php:186
+msgid "Error saving image"
+msgstr ""
+
+#: includes/Helper.php:190
+msgid "Invalid image"
+msgstr ""
+
+#: includes/Helper.php:968 includes/Helper.php:973
+msgid "Buy WP Quiz Pro"
+msgstr ""
+
+#: includes/Helper.php:968
+msgid "click"
+msgstr ""
+
+#: includes/Helper.php:971
+msgid "Like WP Quiz Plugin? You will LOVE WP Quiz Pro!"
+msgstr ""
+
+#: includes/Helper.php:972
+msgid ""
+"New Quiz type Swiper, Show Ads in the quizzes, Countdown Timer, Open graph "
+"integration, Player tracking, Force users to Subscribe to see the results "
+"and much more."
+msgstr ""
+
+#: templates/global/promote-link.php:20
+msgid "Powered by WP Quiz"
+msgstr ""
+
+#: templates/global/sharing.php:25
+#: includes/Admin/views/admin-pages/defaults.php:67
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:66
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:46
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:66
+msgid "Facebook"
+msgstr ""
+
+#: templates/global/sharing.php:29
+#: includes/Admin/views/admin-pages/defaults.php:68
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:67
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:47
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:67
+msgid "Twitter"
+msgstr ""
+
+#: templates/global/sharing.php:33
+msgid "Google+"
+msgstr ""
+
+#: templates/global/sharing.php:37
+#: includes/Admin/views/admin-pages/defaults.php:69
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:68
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:48
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:68
+msgid "VK"
+msgstr ""
+
+#: templates/global/restart-quiz-button.php:15
+msgid "Play Again!"
+msgstr ""
+
+#: includes/Admin/Assets.php:73
+msgid "Select quiz type"
+msgstr ""
+
+#: includes/Admin/Assets.php:74
+msgid "Edit image"
+msgstr ""
+
+#: includes/Admin/Assets.php:75 includes/QuizTypes/Trivia.php:174
+msgid "Upload image"
+msgstr ""
+
+#: includes/Admin/Assets.php:76
+msgid "The app ID must not be empty"
+msgstr ""
+
+#: includes/Admin/Assets.php:77
+msgid "The access key must not be empty"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:37 includes/Admin/AdminHelper.php:109
+msgid "Attention Seekers"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:38 includes/Admin/AdminHelper.php:110
+msgid "bounce"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:39 includes/Admin/AdminHelper.php:111
+msgid "flash"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:40 includes/Admin/AdminHelper.php:112
+msgid "pulse"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:41 includes/Admin/AdminHelper.php:113
+msgid "rubberBand"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:42 includes/Admin/AdminHelper.php:114
+msgid "shake"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:43 includes/Admin/AdminHelper.php:115
+msgid "swing"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:44 includes/Admin/AdminHelper.php:116
+msgid "tada"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:45 includes/Admin/AdminHelper.php:117
+msgid "wobble"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:46 includes/Admin/AdminHelper.php:118
+msgid "jello"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:48
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:49
+msgid "bounceIn"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:50
+msgid "bounceInDown"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:51
+msgid "bounceInLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:52
+msgid "bounceInRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:53
+msgid "bounceInUp"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:55
+msgid "Fading Entrances"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:56
+msgid "fadeIn"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:57
+msgid "fadeInDown"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:58
+msgid "fadeInDownBig"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:59
+msgid "fadeInLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:60
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:61
+msgid "fadeInRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:62
+msgid "fadeInRightBig"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:63
+msgid "fadeInUp"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:64
+msgid "fadeInUpBig"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:66 includes/Admin/AdminHelper.php:138
+msgid "Flippers"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:67 includes/Admin/AdminHelper.php:139
+msgid "flip"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:68
+msgid "flipInX"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:69
+msgid "flipInY"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:71 includes/Admin/AdminHelper.php:143
+msgid "Lightspeed"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:72
+msgid "lightSpeedIn"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:74
+msgid "Rotating Entrances"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:75
+msgid "rotateIn"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:76
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:77
+msgid "rotateInDownRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:78
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:79
+msgid "rotateInUpRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:81
+msgid "Sliding Entrances"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:82
+msgid "slideInUp"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:83
+msgid "slideInDown"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:84
+msgid "slideInLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:85
+msgid "slideInRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:87
+msgid "Zoom Entrances"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:88
+msgid "zoomIn"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:89
+msgid "zoomInDown"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:90
+msgid "zoomInLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:91
+msgid "zoomInRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:92
+msgid "zoomInUp"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:94 includes/Admin/AdminHelper.php:166
+msgid "Specials"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:95
+msgid "jackInTheBox"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:96
+msgid "rollIn"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:120
+msgid "Bouncing Exits"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:121
+msgid "bounceOut"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:122
+msgid "bounceOutDown"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:123
+msgid "bounceOutLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:124
+msgid "bounceOutRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:125
+msgid "bounceOutUp"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:127
+msgid "Fading Exits"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:128
+msgid "fadeOut"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:129
+msgid "fadeOutDown"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:130
+msgid "fadeOutDownBig"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:131
+msgid "fadeOutLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:132
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:133
+msgid "fadeOutRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:134
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:135
+msgid "fadeOutUp"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:136
+msgid "fadeOutUpBig"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:140
+msgid "flipOutX"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:141
+msgid "flipOutY"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:144
+msgid "lightSpeedOut"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:146
+msgid "Rotating Exits"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:147
+msgid "rotateOut"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:148
+msgid "rotateOutDownLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:149
+msgid "rotateOutDownRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:150
+msgid "rotateOutUpLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:151
+msgid "rotateOutUpRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:153
+msgid "Sliding Exits"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:154
+msgid "slideOutUp"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:155
+msgid "slideOutDown"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:156
+msgid "slideOutLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:157
+msgid "slideOutRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:159
+msgid "Zoom Exits"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:160
+msgid "zoomOut"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:161
+msgid "zoomOutDown"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:162
+msgid "zoomOutLeft"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:163
+msgid "zoomOutRight"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:164
+msgid "zoomOutUp"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:167
+msgid "hinge"
+msgstr ""
+
+#: includes/Admin/AdminHelper.php:168
+msgid "rollOut"
+msgstr ""
+
+#: includes/Admin/EditorButtons.php:82
+msgid "Insert"
+msgstr ""
+
+#: includes/Admin/EditorButtons.php:83
+msgid "Cancel"
+msgstr ""
+
+#: includes/Admin/EditorButtons.php:84
+msgid "Quiz shortcode"
+msgstr ""
+
+#: includes/Admin/EditorButtons.php:85
+msgid "Select Quiz"
+msgstr ""
+
+#: includes/Admin/EditorButtons.php:86
+msgid "Show questions"
+msgstr ""
+
+#: includes/Admin/EditorButtons.php:87
+msgid "Fill 2 to show 2 first questions. Fill -2 to hide 2 first questions"
+msgstr ""
+
+#: includes/Admin/EditorButtons.php:88
+msgid "Quizzes shortcode"
+msgstr ""
+
+#: includes/Admin/EditorButtons.php:89
+msgid "Number of Quizzes"
+msgstr ""
+
+#: includes/PlayDataTracking/PlayDataTracking.php:60
+msgid "Empty play data"
+msgstr ""
+
+#: includes/PlayDataTracking/Database.php:156
+msgid "Empty quiz ID"
+msgstr ""
+
+#: includes/PlayDataTracking/Database.php:213
+msgid "Unable to insert play data"
+msgstr ""
+
+#: includes/PlayDataTracking/REST.php:55
+msgid "Quiz not found"
+msgstr ""
+
+#: includes/QuizTypes/Personality.php:31
+msgid ""
+"Ask a series of questions to your user and reveal something about them even "
+"they didn't know about."
+msgstr ""
+
+#: includes/QuizTypes/Personality.php:75
+msgid "Please add results before adding questions"
+msgstr ""
+
+#: includes/QuizTypes/Personality.php:106 includes/QuizTypes/Trivia.php:256
+msgid "Answer text"
+msgstr ""
+
+#: includes/QuizTypes/Personality.php:120
+#: includes/QuizTypes/Personality.php:155 includes/QuizTypes/Trivia.php:150
+#: includes/QuizTypes/Trivia.php:249 includes/QuizTypes/Trivia.php:289
+msgid "Remove"
+msgstr ""
+
+#: includes/QuizTypes/Personality.php:126
+msgid "Associate results:"
+msgstr ""
+
+#: includes/QuizTypes/Personality.php:141 includes/QuizTypes/Trivia.php:275
+msgid "Result title"
+msgstr ""
+
+#: includes/QuizTypes/Personality.php:162 includes/QuizTypes/Trivia.php:307
+msgid "Description"
+msgstr ""
+
+#: includes/QuizTypes/Personality.php:166 includes/QuizTypes/Trivia.php:311
+msgid "Redirect URL(optional)"
+msgstr ""
+
+#: includes/QuizTypes/FBQuiz.php:29
+msgid ""
+"Create incredibly engaging quizzes which require very less effort on the "
+"user's part and always gets great engagement and shares."
+msgstr ""
+
+#: includes/QuizTypes/FBQuiz.php:38
+msgid "Facebook quiz"
+msgstr ""
+
+#: includes/QuizTypes/ListQuiz.php:29
+msgid ""
+"Combine the power of listicles and quizzes to generate some incredible "
+"engagement from your users and great results for yourself."
+msgstr ""
+
+#: includes/QuizTypes/ListQuiz.php:38
+msgid "List quiz"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:26
+msgid ""
+"Create Trivia Quizzes to test your users' knowledge about a subject and then "
+"surprise them with the results."
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:124
+msgid "Image question"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:128
+msgid "Video question"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:152 includes/QuizTypes/Flip.php:142
+#: includes/QuizTypes/Flip.php:186
+msgid "Credit"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:166
+msgid "Video URL"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:167
+msgid "Upload video"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:168
+msgid "Preview"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:173
+msgid "Video image placeholder"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:183
+msgid "Question text?"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:187
+msgid "Answer Explanation"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:191
+msgid "Question hint (optional)"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:213 includes/Traits/QuizTypeBackend.php:140
+msgid "Answers"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:216
+msgid "Text answers"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:219
+msgid "Image answers"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:260
+msgid "Correct answer"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:297
+msgid "Min"
+msgstr ""
+
+#: includes/QuizTypes/Trivia.php:301
+msgid "Max"
+msgstr ""
+
+#: includes/QuizTypes/Swiper.php:29
+msgid ""
+"Swiper quizzes are fun to play, easy to create, and are great to capture and "
+"compare results from a group of people."
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:45
+msgid ""
+"A multi-utility quiz type that can be used to used to create a variety of "
+"content, each of is equally engaging."
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:80
+msgid "Questions"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:108
+msgid "Question title?"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:119
+msgid "Front"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:120
+msgid "Back"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:140 includes/QuizTypes/Flip.php:184
+msgid "Remove Image"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:151
+msgid "Front Text (Optional)"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:157
+msgid "Front background color (Optional)"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:162
+msgid "Front font color (Optional)"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:195
+msgid "Back Text (Optional)"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:201
+msgid "Back background color (Optional)"
+msgstr ""
+
+#: includes/QuizTypes/Flip.php:206
+msgid "Back font color (Optional)"
+msgstr ""
+
+#: includes/Traits/QuizTypeFrontend.php:52
+msgid "No answer"
+msgstr ""
+
+#: includes/Traits/QuizTypeFrontend.php:793
+msgid "There is no question"
+msgstr ""
+
+#: includes/Traits/QuizTypeBackend.php:155
+msgid "Results"
+msgstr ""
+
+#: includes/Traits/QuizTypeBackend.php:227
+msgid "+ Add Question"
+msgstr ""
+
+#: includes/Traits/QuizTypeBackend.php:242
+msgid "+ Add Answer"
+msgstr ""
+
+#: includes/Traits/QuizTypeBackend.php:257
+msgid "+ Add Result"
+msgstr ""
+
+#: includes/Traits/QuizTypeBackend.php:276
+msgid "Remove question"
+msgstr ""
+
+#: includes/Traits/QuizTypeBackend.php:292
+msgid "Remove answer"
+msgstr ""
+
+#: includes/Traits/QuizTypeBackend.php:308
+msgid "Remove result"
+msgstr ""
+
+#: includes/Traits/QuizTypeBackend.php:324
+msgid "Remove image"
+msgstr ""
+
+#: includes/ForceActions/Manager.php:77
+msgid "No Action"
+msgstr ""
+
+#: includes/ForceActions/Manager.php:80
+msgid "Force action to see the results"
+msgstr ""
+
+#: includes/ForceActions/Manager.php:80
+#: includes/Admin/AdminPages/NewQuiz.php:95
+#: includes/Admin/views/admin-pages/google-analytics.php:13
+#: includes/Admin/views/admin-pages/google-analytics.php:24
+#: includes/Admin/views/admin-pages/google-analytics.php:35
+#: includes/Admin/views/admin-pages/general.php:36
+#: includes/Admin/views/admin-pages/general.php:51
+#: includes/Admin/views/admin-pages/general.php:77
+#: includes/Admin/views/admin-pages/general.php:94
+#: includes/Admin/views/admin-pages/general.php:128
+#: includes/Admin/views/admin-pages/general.php:139
+#: includes/Admin/views/admin-pages/general.php:150
+#: includes/Admin/views/admin-pages/general.php:161
+#: includes/Admin/views/admin-pages/subscription.php:15
+#: includes/Admin/views/admin-pages/quiz-types.php:17
+#: includes/Admin/views/admin-pages/defaults.php:17
+#: includes/Admin/views/admin-pages/defaults.php:27
+#: includes/Admin/views/admin-pages/defaults.php:55
+#: includes/Admin/views/admin-pages/defaults.php:79
+#: includes/Admin/views/admin-pages/defaults.php:94
+#: includes/Admin/views/admin-pages/defaults.php:121
+#: includes/Admin/views/admin-pages/defaults.php:137
+#: includes/Admin/views/admin-pages/defaults.php:148
+#: includes/Admin/views/admin-pages/defaults.php:159
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:15
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:25
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:53
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:78
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:125
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:141
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:151
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:14
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:33
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:57
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:15
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:25
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:53
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:77
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:111
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:167
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:183
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:193
+msgid "Pro feature"
+msgstr ""
+
+#: includes/ForceActions/Manager.php:81
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:109
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:151
+msgid "Applies to Trivia or Personality quiz."
+msgstr ""
+
+#: includes/ForceActions/Manager.php:88
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:115
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:127
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:157
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:169
+msgid "Use default value"
+msgstr ""
+
+#: templates/quiz-types/flip/quiz.php:32
+msgid "Share:"
+msgstr ""
+
+#. translators: number of seconds.
+#: templates/quiz-types/trivia/quiz.php:34
+#, php-format
+msgid ""
+"This is a timed quiz. You will be given %s seconds to answer all questions. "
+"Are you ready?"
+msgstr ""
+
+#. translators: number of seconds.
+#: templates/quiz-types/trivia/quiz.php:47
+#, php-format
+msgid ""
+"This is a timed quiz. You will be given %s seconds per question. Are you "
+"ready?"
+msgstr ""
+
+#: templates/global/questions/next-button.php:13
+msgid "Continue >>"
+msgstr ""
+
+#: templates/global/results/results-close.php:10
+msgid "Share your Results:"
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:40
+msgid "WP Quiz Settings"
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:140
+msgid "General"
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:141
+msgid "From here you can control general settings related to quizzes."
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:146
+msgid "Defaults"
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:147
+msgid "These default values will be used while creating a new quiz."
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:152
+msgid "Subscription"
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:153
+msgid ""
+"From here you can control the settings related to the Subscribption form "
+"shown at the end of the quiz."
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:158
+msgid "Google Analytics"
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:159
+msgid "Track Quiz related events directly from the Google Analytics."
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:164
+msgid "Quiz types"
+msgstr ""
+
+#: includes/Admin/AdminPages/Settings.php:165
+msgid "You can enable or disable quiz types from here."
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:64
+msgid "Import/Export"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:92
+#: includes/Admin/AdminPages/ImportExport.php:314
+msgid "Export"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:94
+#: includes/Admin/AdminPages/ImportExport.php:313
+#: includes/Admin/views/admin-pages/import-export/import.php:26
+msgid "Import"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:147
+msgid "You did not choose any quizzes"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:196
+msgid "Personality"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:203
+msgid "Trivia"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:210
+msgid "Flip"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:258
+#: includes/Admin/AdminPages/ImportExport.php:266
+#: includes/Admin/views/admin-pages/import-export/import.php:42
+#: includes/Admin/views/admin-pages/import-export/import.php:44
+msgid "Import quizzes"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:275
+msgid "Import settings successfully"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:329
+#: includes/Admin/AdminPages/ImportExport.php:372
+msgid "Please select the file"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:334
+#: includes/Admin/AdminPages/ImportExport.php:377
+msgid "Can not import the file content or file is empty"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:339
+#: includes/Admin/AdminPages/ImportExport.php:382
+msgid "Can not parse file content"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:352
+msgid "Please choose the demo"
+msgstr ""
+
+#: includes/Admin/AdminPages/ImportExport.php:357
+msgid "The demo you chose does not exist"
+msgstr ""
+
+#: includes/Admin/AdminPages/NewQuiz.php:56
+#: includes/Admin/AdminPages/NewQuiz.php:57
+#: includes/Admin/AdminPages/NewQuiz.php:72
+msgid "Add new quiz"
+msgstr ""
+
+#: includes/Admin/AdminPages/NewQuiz.php:92
+#: includes/Admin/AdminPages/NewQuiz.php:94
+msgid "+ Create Quiz"
+msgstr ""
+
+#. translators: Quiz type.
+#: includes/Admin/MetaBoxes/QuizMetaBox.php:107
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: includes/Admin/MetaBoxes/QuizMetaBox.php:213
+msgid "Content"
+msgstr ""
+
+#: includes/Admin/MetaBoxes/QuizMetaBox.php:219
+msgid "Styling"
+msgstr ""
+
+#: includes/Admin/MetaBoxes/QuizMetaBox.php:225
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/MetaBoxes/QuizShortcodeMetaBox.php:49
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:61
+msgid "Off"
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:62
+msgid "On"
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:157
+msgid "Enter your app ID then click Get auth code button."
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:160
+msgid "App ID"
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:163
+msgid "Get auth code"
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:170
+msgid ""
+"Copy and paste the authorization code you see after log in to your AWeber "
+"account."
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:173
+msgid "Auth code"
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:174
+msgid "Authorize"
+msgstr ""
+
+#. translators: disconnect button.
+#: includes/Admin/CMB2Custom/CustomFields.php:180
+#, php-format
+msgid "Your AWeber Account is connected. %s to disconnect."
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:183
+#: includes/Admin/views/admin-pages/general.php:81
+msgid "Click here"
+msgstr ""
+
+#: includes/Admin/CMB2Custom/CustomFields.php:188
+msgid "List ID"
+msgstr ""
+
+#: templates/quiz-types/personality/questions/question.php:45
+#: templates/quiz-types/trivia/questions/question.php:54
+msgid "Show hint"
+msgstr ""
+
+#: templates/quiz-types/flip/questions/front.php:48
+msgid "Click to Flip"
+msgstr ""
+
+#. translators: total correct answers.
+#: templates/quiz-types/trivia/questions/question.php:44
+#, php-format
+msgid "Please select %d correct answers"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/google-analytics.php:13
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/google-analytics.php:14
+msgid "This option enables the quiz view tracking in the GA."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/google-analytics.php:24
+msgid "Do not print Google Analytics code"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/google-analytics.php:25
+msgid ""
+"Turn on this option if Google Analytics code is printed by your own code."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/google-analytics.php:35
+msgid "Enable Google Analytics event tracking"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:23
+msgid "Quiz archive slug"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:24
+msgid ""
+"If you are planning to use this quiz CPT in the theme, then you can change "
+"the slug according to your needs."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:36
+msgid "Record guest user by"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:37
+msgid "Use this option to group the played quizzes for guest users."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:40
+msgid "IP address"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:41
+msgid "Browser cookie"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:51
+msgid "Allow multiple votes per user"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:52
+msgid "This option is for List Quiz only. If voting option is used."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:63
+msgid "Facebook App ID"
+msgstr ""
+
+#. translators: Facebook App ID tutorial link.
+#: includes/Admin/views/admin-pages/general.php:66
+#, php-format
+msgid "This is required option if you are using the Facebook Share button. %s"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:67
+msgid "Tutorial"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:77
+msgid "Stripe API key"
+msgstr ""
+
+#. translators: API key link.
+#: includes/Admin/views/admin-pages/general.php:80
+#, php-format
+msgid ""
+"Stripe Payments is used to enable the Pay to Play feature, %s to get Stripe "
+"API key"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:94
+msgid "Currency"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:95
+msgid "Set up the currency for the Stripe Payment."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:105
+msgid "Signup"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:106
+msgid " and get your referral ID (username) if you don't have it already!"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:110
+msgid "Check your affiliate earning by following "
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:111
+msgid "this link"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:118
+msgid "MyThemeShop username"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:128
+msgid "Enable Open Graph & Twitter Cards meta tags"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:129
+msgid ""
+"If enabled, when user shares the quiz result on Facebook or Twitter, details "
+"of final results will be used(example: Result image, text etc)."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:139
+msgid "Enable players tracking"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:140
+msgid "You can track advanced player statistics using this option."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:150
+msgid "Send email result to admin"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:151
+msgid "You can recive emails regarding each played quiz and their result."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:161
+msgid "Enqueue CSS files in footer"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/general.php:162
+msgid ""
+"Will improve overall site score. Please use this option with caution as this "
+"can also break styling in the frontend."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/subscription.php:15
+msgid "Mail Service"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/subscription.php:17
+msgid "Select Mail service"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:17
+msgid "Randomize Questions"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:27
+msgid "Randomize Answers"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:37
+msgid "Restart Questions"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:46
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:44
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:24
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:44
+msgid "Promote the plugin"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:55
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:53
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:33
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:53
+msgid "Show embed code toggle"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:65
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:63
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:43
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:63
+msgid "Share buttons"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:79
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:77
+msgid "Countdown timer [Seconds/question]"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:80
+msgid "Applies to Trivia quiz in multi page layout."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:94
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:78
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:111
+msgid "Reload page after Xth questions"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:95
+msgid ""
+"Applies to Trivia, Personality and Swiper quizzes in multi pages layout."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:109
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:96
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:129
+msgid "Auto scroll to next question"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:110
+msgid "Applies to Trivia and Personality quiz in single page layout."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:121
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:107
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:149
+msgid "Result Delivery Method"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:122
+msgid "Applies to Trivia and Personality quiz."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:124
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:111
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:153
+msgid "Show results"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:125
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:112
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:154
+msgid "Show results and send email"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:126
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:113
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:155
+msgid "Email Results only"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:137
+msgid "Use Continue As button"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:138
+msgid ""
+"Replaces Facebook login button with Continue As button. Applies to FB Quiz "
+"only."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:148
+msgid "Show result in Popup"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:149
+msgid "Applies to Trivia and Personality quiz only."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/defaults.php:159
+msgid "Show Ads"
+msgstr ""
+
+#: includes/Modules/Subscription/MailServices/ConvertKit.php:24
+msgid "ConvertKit"
+msgstr ""
+
+#: includes/Modules/Subscription/MailServices/Mailchimp.php:23
+msgid "Mailchimp"
+msgstr ""
+
+#: includes/Modules/Subscription/MailServices/GetResponse.php:23
+msgid "GetResponse"
+msgstr ""
+
+#: includes/Modules/Subscription/MailServices/AWeber.php:24
+msgid "AWeber"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:14
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:12
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:14
+msgid "Choose skin"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:17
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:15
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:17
+msgid "Traditional skin"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:18
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:16
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:18
+msgid "Modern flat skin"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:27
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:27
+msgid "Question layout"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:30
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:30
+msgid "Show all"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:31
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:31
+msgid "Multiple pages"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:40
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:52
+msgid "Progress bar color"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:52
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:25
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:64
+msgid "Questions font color"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:61
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:73
+msgid "Questions background color"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:70
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:82
+msgid "Animation in"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-styling.php:83
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:95
+msgid "Animation out"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:15
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:14
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:15
+msgid "Randomize questions"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:25
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:25
+msgid "Randomize answers"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:35
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:35
+msgid "Restart questions"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:79
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:112
+msgid "Applies to multiple pages layout."
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:125
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:167
+msgid "Show result in popup"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:129
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:171
+msgid "Yes"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:130
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:172
+msgid "No"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:141
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:183
+msgid "Pay to play"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/personality/tab-settings.php:151
+#: includes/Admin/views/quiz-types/flip/tab-settings.php:57
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:193
+msgid "Show ads"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:34
+msgid "Quiz size"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:37
+msgid "Full Width (responsive)"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:38
+msgid "Custom"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:46
+msgid "Custom width"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/flip/tab-styling.php:57
+msgid "Custom height"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/trivia/tab-styling.php:40
+msgid "Show Next Button"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:79
+msgid "(applies to multiple page layout from the styling tab)"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:95
+msgid "Overall time in seconds"
+msgstr ""
+
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:97
+msgid "Set overall time to complete the quiz."
+msgstr ""
+
+#: includes/Admin/views/quiz-types/trivia/tab-settings.php:138
+msgid "Show right/wrong answers at the end of the quiz."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/export.php:21
+msgid "Select Quizzes to Export"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/export.php:27
+msgid "Select All"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/export.php:39
+msgid "Export Quizzes"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/export.php:40
+msgid "Export Settings"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/export.php:45
+msgid "No Quiz to Export"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/import-progress.php:18
+msgid "Download images"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/import-progress.php:25
+msgid "Create a new quiz if quiz with the same title is present."
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/import-progress.php:29
+msgid "Continue"
+msgstr ""
+
+#. translators: %1$s: import done, %2$s: import total.
+#: includes/Admin/views/admin-pages/import-export/import-progress.php:35
+#, php-format
+msgid "Importing %1$s of %2$s quizzes"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/import-progress.php:39
+msgid "Import done"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/import-progress.php:40
+msgid "Back to import page"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/import.php:27
+msgid "View demo"
+msgstr ""
+
+#: includes/Admin/views/admin-pages/import-export/import.php:54
+#: includes/Admin/views/admin-pages/import-export/import.php:56
+msgid "Import settings"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WP Quiz lets you easily add polished, responsive and modern quizzes to your "
+"site or blog! Increase engagement and shares while building your mailing "
+"list! WP Quiz makes it easy!"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://mythemeshop.com/plugins/wp-quiz/"
+msgstr ""
+
+#. Author of the plugin
+msgid "MyThemeShop"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://mythemeshop.com/"
+msgstr ""

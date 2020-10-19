@@ -1,0 +1,78 @@
+#configs {
+  .sui-accordion-item-header {
+    .config-description {
+      position: relative;
+
+      .quick-apply {
+        display: none;
+      }
+    }
+
+    .sui-dropdown {
+      margin-left: 20px;
+      margin-right: 0;
+    }
+
+    .defender-container {
+      background-color: #B12508;
+      border-radius: 10px;
+      margin-right: 15px;
+
+      i {
+        margin: 7px;
+      }
+
+      i:before {
+        color: #FFBA01
+      }
+    }
+
+    i.sui-icon-check-tick {
+      margin-left: 15px;
+    }
+
+    i.sui-icon-check-tick:before {
+      color: #286EFA
+    }
+  }
+
+  .sui-accordion-item-header:hover {
+    .config-description:after {
+      background: linear-gradient(to left,
+              rgba(248, 248, 248, 1) 30%,
+              rgba(248, 248, 248, 0) 90%
+      );
+      position: absolute;
+      bottom: 0;
+      right: 110px;
+      height: 100%;
+      width: 100%;
+      content: "";
+      transition: 0.3s ease;
+    }
+
+    .config-description {
+      .quick-apply {
+        position: absolute;
+        display: inline-block;
+        right: 0
+      }
+    }
+  }
+
+  .config-detail {
+    table {
+      td {
+        color: #888888
+      }
+
+      td:nth-child(1) {
+        color: #333
+      }
+
+      tr.odd {
+        background-color: #f8f8f8;
+      }
+    }
+  }
+}
